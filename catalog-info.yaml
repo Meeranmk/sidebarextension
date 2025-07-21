@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sidebarextension
+  description: |
+    No description provided
+  annotations:
+    github.com/project-slug: Meeranmk/sidebarextension
+  links:
+    - title: Repository
+      url: https://github.com/Meeranmk/sidebarextension
+spec:
+  type: service
+  lifecycle: production
+  owner: user:Meeranmk
